@@ -1,0 +1,33 @@
+const Config = {};
+
+Config.AOPFireLocations = {
+    north_ls: [
+        [200.0, -1000.0, 29.0]
+    ],
+    south_ls: [
+        [-500.0, -1500.0, 28.0]
+    ],
+    east_ls: [
+        [1200.0, -400.0, 70.0]
+    ],
+    west_ls: [
+        [-1000.0, 300.0, 60.0]
+    ],
+    sandy: [
+        [1960.0, 3700.0, 32.0]
+    ],
+    grapeseed: [
+        [1700.0, 4900.0, 42.0]
+    ],
+    paleto: [
+        [-400.0, 6200.0, 31.0]
+    ]
+};
+
+Config.VehicleHosePoints = {
+    firetruk: {
+        panel: [-1.2, -2.5, 0.5],
+        intake: [-1.5, -3.0, 0.4],
+        discharge: [1.5, -3.0, 0.4]
+    }
+};
